@@ -59,7 +59,6 @@ const Contact = () => {
               <div className="details">
                 <h4>Email</h4>
                 <a href="mailto:anyone@example.com">anyone@example.com</a>
-                <a href="mailto:anyone@example.com">anyone@example.com</a>
               </div>
             </div>
             <div className="info-box">
@@ -67,7 +66,6 @@ const Contact = () => {
               <div className="details">
                 <h4>Call</h4>
                 <a href="tel:+19785555555">+1 978 555 5555</a>
-                <a href="tel:+19784444444">+1 978 555 4444</a>
               </div>
             </div>
           </div>
