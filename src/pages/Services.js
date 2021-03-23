@@ -12,7 +12,7 @@ const Services = () => {
     <div>
       <Navbar />
       <section>
-        <div class="title">
+        <div className="title">
           <h1>Services that we can help you with</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
@@ -23,49 +23,49 @@ const Services = () => {
             exercitationem qui quidem nam.
           </p>
         </div>
-        <div class="services">
-          <div class="service">
-            <div class="icon">
+        <div className="services">
+          <div className="service">
+            <div className="icon">
               <img src={simg1} alt="" />
             </div>
             <h2>Design</h2>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             omnis nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
           </div>
-          <div class="service">
-            <div class="icon">
+          <div className="service">
+            <div className="icon">
               <img src={simg2} alt="" />
             </div>
             <h2>Development</h2>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             omnis nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
           </div>
-          <div class="service">
-            <div class="icon">
+          <div className="service">
+            <div className="icon">
               <img src={simg3} alt="" />
             </div>
             <h2>SEO</h2>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             omnis nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
           </div>
-          <div class="service">
-            <div class="icon">
+          <div className="service">
+            <div className="icon">
               <img src={simg4} alt="" />
             </div>
             <h2>Marketing</h2>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             omnis nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
           </div>
-          <div class="service">
-            <div class="icon">
+          <div className="service">
+            <div className="icon">
               <img src={simg5} alt="" />
             </div>
             <h2>App Development</h2>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             omnis nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
           </div>
-          <div class="service">
-            <div class="icon">
+          <div className="service">
+            <div className="icon">
               <img src={simg6} alt="" />
             </div>
             <h2>Error Fixing</h2>
