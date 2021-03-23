@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./style.css";
+import { useState } from "react";
+import { Switch, Route } from "react-router-dom";
+import LandingPage from "./pages/Landing";
+import ServicesPage from "./pages/Services";
+import WorkPage from "./pages/Work";
+import ContactPage from "./pages/Contact";
 
 function App() {
+  const [toggleNav, setToggleNav] = useState("");
+
+  const handleToggle = () => {
+    toggleNav ? setToggleNav("") : setToggleNav("active");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/">
+        <LandingPage toggleNav={toggleNav} handleToggle={handleToggle} />
+      </Route>
+      <Route path="/work">
+        <WorkPage toggleNav={toggleNav} handleToggle={handleToggle} />
+      </Route>
+      <Route path="/services">
+        <ServicesPage toggleNav={toggleNav} handleToggle={handleToggle} />
+      </Route>
+      <Route path="/contact">
+        <ContactPage toggleNav={toggleNav} handleToggle={handleToggle} />
+      </Route>
+    </Switch>
   );
 }
 
