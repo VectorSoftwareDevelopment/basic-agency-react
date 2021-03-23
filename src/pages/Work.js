@@ -19,7 +19,7 @@ const Work = () => {
       <Navbar />
 
       <section>
-        <div class="title">
+        <div className="title">
           <h1>Some of our finest work</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
@@ -31,77 +31,77 @@ const Work = () => {
           </p>
         </div>
 
-        <div class="portfolio">
-          <div class="item">
+        <div className="portfolio">
+          <div className="item">
             <img src={pimg1} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg2} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg3} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg4} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg5} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg6} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg7} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg8} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg9} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg10} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg11} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <img src={pimg12} alt="" />
-            <div class="action">
-              <a href="#">Launch</a>
+            <div className="action">
+              <a href="/">Launch</a>
             </div>
           </div>
         </div>
